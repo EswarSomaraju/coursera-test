@@ -53,6 +53,32 @@
 		#sec-3-header{
 			background-color: #8FBC8F;
 		}
+
+		/* desktop */
+		@media (min-width: 992px){
+			.container div{
+				width: 32.5%;
+			}
+		}
+
+		/* tablet */
+		@media (min-width: 768px) and (max-width: 991px){
+			.sec-1, .sec-2{
+				width: 50%;
+			}
+			.sec-3{
+				width: 100%;
+			}
+
+		}
+
+		/* mobile */
+		@media (max-width: 767px){
+			.sec-1, .sec-2, .sec-3{
+				width: 100%;
+			}
+
+		}
 	</style>
 </head>
 <body>
