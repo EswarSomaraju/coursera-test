@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module-2 Solution</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		h1{
+			font: 3em "Fira Sans", sans-serif;
+			text-align: center;
+		}
+
+		/*.container{
+			position: relative;
+		}*/
+
+		.container div{
+			position: relative;
+			float: left;
+			width: 32.5%;
+			border: 1px solid black;
+			padding: 5px;
+			margin: 5px;
+			background-color: #F5F5DC;
+		}
+
+		#sec-1-header, #sec-2-header, #sec-3-header{
+			position: absolute;
+			top: 0;
+			right: 0;
+			margin: 0px 0px 0px 0px;
+			padding: 2px 20px 2px 20px;
+			border: 1px solid black;
+			font: 1em "Fira Sans", sans-serif;
+		}
+
+		#sec-1-text, #sec-2-text, #sec-3-text{
+			/*padding: 5px;*/
+			margin-top: 30px;
+			font-family:  "Fira Sans", sans-serif;	
+
+		}
+
+		#sec-1-header{
+			background-color: #CD5C5C;
+		}
+
+		#sec-2-header{
+			background-color: #5F9EA0;
+		}
+
+		#sec-3-header{
+			background-color: #8FBC8F;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Our Menu</h1>
+
+	<div class="container">
+		<div class="sec-1">
+			<p id="sec-1-header">Chicken</p>
+			<p id="sec-1-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+		<div class="sec-2">
+			<p id="sec-2-header">Beef</p>
+			<p id="sec-2-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+		<div class="sec-3">
+			<p id="sec-3-header">Sushi</p>
+			<p id="sec-3-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+	</div>
+
+</body>
+</html>
