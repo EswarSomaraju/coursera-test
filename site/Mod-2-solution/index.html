@@ -3,6 +3,12 @@
 <head>
 	<title>Module-2 Solution</title>
 	<style type="text/css">
+
+		body{
+			margin: 0px;
+			padding: 0px;
+		}
+
 		*{
 			box-sizing: border-box;
 		}
@@ -18,10 +24,10 @@
 		.container div{
 			position: relative;
 			float: left;
-			width: 32.5%;
+			/*width: 32.5%;*/
 			border: 1px solid black;
 			padding: 5px;
-			margin: 5px;
+			/*margin: 1px;*/
 			background-color: #F5F5DC;
 		}
 
@@ -56,27 +62,39 @@
 
 		/* desktop */
 		@media (min-width: 992px){
-			.container div{
-				width: 32.5%;
+			.sec-1{
+				margin-left: 12px;
 			}
+			.container div{
+				width: 33.1%;
+				margin: 1px;
+			}
+			
 		}
 
 		/* tablet */
 		@media (min-width: 768px) and (max-width: 991px){
 			.sec-1, .sec-2{
-				width: 50%;
+				width: 49.6%;
+				margin: 1px;
 			}
 			.sec-3{
-				width: 100%;
+				width: 99.5%;
+				margin: 2px;
 			}
+
+
+			
 
 		}
 
 		/* mobile */
 		@media (max-width: 767px){
 			.sec-1, .sec-2, .sec-3{
-				width: 100%;
+				width: 99.5%;
+				margin: 1px;
 			}
+			
 
 		}
 	</style>
